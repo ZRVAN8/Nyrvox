@@ -1,0 +1,3 @@
+/home/yahya/NOVA/build/CMakeFiles/nova.dir
+/home/yahya/NOVA/build/CMakeFiles/edit_cache.dir
+/home/yahya/NOVA/build/CMakeFiles/rebuild_cache.dir
