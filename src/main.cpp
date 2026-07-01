@@ -1,9 +1,13 @@
-#include <iostream>
+#include "logger.hpp"
 
-using namespace std;
+#include <iostream>
 
 int main()
 {
-	cout << "hello nova!" << endl;
+	logInfo("Hello Nova Started!");
+	std::cout << "hello nova!" << std::endl;
+	logWarning("Hello Nova end!");
+	logError("not error");
+
 	return 0;
 }

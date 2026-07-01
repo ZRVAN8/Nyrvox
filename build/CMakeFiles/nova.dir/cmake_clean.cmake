@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/nova.dir/core/logger/logger.cpp.o"
+  "CMakeFiles/nova.dir/core/logger/logger.cpp.o.d"
   "CMakeFiles/nova.dir/src/main.cpp.o"
   "CMakeFiles/nova.dir/src/main.cpp.o.d"
   "nova"

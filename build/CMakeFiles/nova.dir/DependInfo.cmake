@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/yahya/NOVA/core/logger/logger.cpp" "CMakeFiles/nova.dir/core/logger/logger.cpp.o" "gcc" "CMakeFiles/nova.dir/core/logger/logger.cpp.o.d"
   "/home/yahya/NOVA/src/main.cpp" "CMakeFiles/nova.dir/src/main.cpp.o" "gcc" "CMakeFiles/nova.dir/src/main.cpp.o.d"
   )
 

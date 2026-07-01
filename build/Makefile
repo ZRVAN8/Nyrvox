@@ -129,6 +129,30 @@ nova/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nova.dir/build.make CMakeFiles/nova.dir/build
 .PHONY : nova/fast
 
+core/logger/logger.o: core/logger/logger.cpp.o
+.PHONY : core/logger/logger.o
+
+# target to build an object file
+core/logger/logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nova.dir/build.make CMakeFiles/nova.dir/core/logger/logger.cpp.o
+.PHONY : core/logger/logger.cpp.o
+
+core/logger/logger.i: core/logger/logger.cpp.i
+.PHONY : core/logger/logger.i
+
+# target to preprocess a source file
+core/logger/logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nova.dir/build.make CMakeFiles/nova.dir/core/logger/logger.cpp.i
+.PHONY : core/logger/logger.cpp.i
+
+core/logger/logger.s: core/logger/logger.cpp.s
+.PHONY : core/logger/logger.s
+
+# target to generate assembly for a file
+core/logger/logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nova.dir/build.make CMakeFiles/nova.dir/core/logger/logger.cpp.s
+.PHONY : core/logger/logger.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nova"
+	@echo "... core/logger/logger.o"
+	@echo "... core/logger/logger.i"
+	@echo "... core/logger/logger.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
