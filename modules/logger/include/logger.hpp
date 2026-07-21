@@ -3,9 +3,9 @@
 
 #include <string>
 
-void logInfo(std::string message);
-void logWarning(std::string message);
-void logError(std::string message);
-
+void logInfo(const std::string& module, const std::string& message);
+void logWarning(const std::string& module, const std::string& message);
+void logError(const std::string& module, const std::string& message);
+void logDebug(const std::string& module, const std::string& message);
 
 #endif

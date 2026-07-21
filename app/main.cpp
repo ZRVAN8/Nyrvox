@@ -1,13 +1,6 @@
-#include "logger.hpp"
-
-#include <iostream>
+#include "boot.hpp"
 
 int main()
 {
-	logInfo("Hello Nova Started!");
-	std::cout << "hello nova!" << std::endl;
-	logWarning("Hello Nova end!");
-	logError("not error");
-
-	return 0;
+	return boot() ? 0 : 1;
 }
