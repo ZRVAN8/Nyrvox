@@ -14,12 +14,12 @@ bool boot()
 	}
 	logInfo("BOOT","Logger configuration loaded");
 
-	if(!loadConfig("nova"))
+	if(!loadConfig("nyrvox"))
 	{
-		std::cout << "Failed to load nova configuration\n";
+		std::cout << "Failed to load nyrvox configuration\n";
 		return false;
 	}
-	logInfo("BOOT","Nova boot completed");
-	std::cout << "NOVA Ready!\n";
+	logInfo("BOOT","Nyrvox boot completed");
+	std::cout << "Nyrvox Ready!\n";
 	return true;
 }

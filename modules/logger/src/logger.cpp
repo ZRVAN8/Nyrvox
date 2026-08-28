@@ -32,7 +32,7 @@ bool logMessage(const std::string& level, const std::string& module, const std::
 	std::string timestamp = getCurrentTimestamp();
 	std::string logEntry = "[" + timestamp + "] " + "["+ level +"] " + "[" + module + "] "+ message; 
 	//std::cout << logEntry << "\n";
-	std::string path = "../logs/nova.log";
+	std::string path = "logs/nyrvox.log";
 	std::ofstream outputFile(path, std::ios::app);
 	if (outputFile.is_open())
 	{

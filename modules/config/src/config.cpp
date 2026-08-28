@@ -76,7 +76,7 @@ bool loadConfig(const std::string& module)
 
 bool saveConfig(const std::string& module, const std::string& key, const std::string& value)
 {
-	auto mode = getConfig("nova", "mode").value_or("normal");
+	auto mode = getConfig("nyrvox", "mode").value_or("normal");
 
 	if (mode == "normal")
 	{
